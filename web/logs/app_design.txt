@@ -1,0 +1,53 @@
+App Functionality: A user can:
+    - view list of developers
+    - add a new developer
+
+Developer class:
+[Fields]
+- first name (String)       => the first name of the developer
+- last name (String)        => the last name of the developer
+- email address (String)    => the email address of the developer
+- role (String)             => the role of the developer e.g frontend, android dev, etc
+
+[Methods]
+- getFullName()         => return the first and last name of the developer as a single string
+
+[ Main Menu (screen) ]
+####################################
+# Welcome to Developer Record
+# 1. View All Developers
+# 2. Add A New Developer
+#
+# Select an option to continue...
+####################################
+
+[ List Menu (screen) ]
+####################################
+# 1. Name: (full name), Role (role)
+# 2. Name: (full name), Role (role)
+#
+# X. Go Back (main menu)
+#
+# Select an option to continue...
+####################################
+
+[ Developer Details (screen) ]
+####################################
+# First Name: (first name)
+# Last Name: (last name)
+# Email Address: (email address)
+# Role: (role)
+#
+# X. Go Back (list menu)
+####################################
+
+[ Add Developer (screen) ]
+####################################
+# First Name: (first name)
+# Last Name: (last name)
+# Email Address: (email address)
+# Role: (role)
+#
+# Do you want to the details (y/n)?
+(if y or Y, save the developer and go back to main menu : if any other, go back to main menu
+####################################

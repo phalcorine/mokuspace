@@ -1,0 +1,4 @@
+- Create application bootstrap
+- Configure Composer dependencies
+- Set up virtual hosts
+- test first functionality

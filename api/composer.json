@@ -1,0 +1,22 @@
+{
+  "name": "andromadus-moviespace/api",
+  "description": "A RESTful API web service for viewing and favoring movies...",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Andromadus",
+      "email": "andromadusv2@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "7.2 - 7.3",
+    "ext-phalcon": "3.4.*",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "~6.0",
+    "lcobucci/jwt": "^3.3"
+  },
+  "require-dev": {
+    "phalcon/ide-stubs": "3.4.3"
+  }
+}

@@ -1,0 +1,67 @@
+app_user:
+- id    [int, primary, ai]
+- userToken [varchar(16)]
+- firstName [varchar(32)]
+- lastName  [varchar(32)]
+- emailAddress  [varchar(128)]
+- password  [varchar(256)]
+
+movie:
+- id
+- title (string)
+- overview (string)
+- runtime (integer)
+- releaseDate (date string) [yyyy/mm/dd]
+- budget (integer)
+- voteAverage (double)
+- genres (array) {
+    - id (integer)
+    - name (string)
+}
+- videos (array) {
+    - id (string)
+    - name (string)
+    - type (string)
+    - key (string)
+    - site (string)
+}
+- posterPath (string)
+- backdropPath (string)
+- status (string)
+- homepage (string)
+
+movie:
+- id        [int]
+- title     [varchar(64)]
+- overview  [varchar(256)]
+- runtime   [int]
+- releaseDate   [varchar(16)]
+- budget    [int]
+- voteAverage   [double]
+- backdropPath  [varchar(128)]
+- posterPath    [varchar(128)]
+- status    [varchar(32)]
+- homepageUrl   [varchar(128), null]
+
+video_metadata:
+- id    [int, primary, ai]
+- movieId [int, foreign key (movie.id)]
+- trailerId [varchar(32)]
+- name  [varchar(64)]
+- type  [varchar(32)]
+- videoKey  [varchar(32)]
+- site  [varchar(32)]
+
+genre:
+- id    [int, primary, ai]
+- name  [varchar(32)]
+
+movie_genre:
+- id
+- genreId
+- movieId
+
+movie_favorite:
+- id    [int, primary, ai]
+- movieId   [int]
+- userId    [int]

@@ -1,0 +1,239 @@
+[Sun, 03 May 20 19:32:38 +0200][ERROR] {"message":"Macro 'renderTitle' does not exist","trace":"#0 C:\\xampp\\htdocs\\moviespace\\web\\cache\\volt\\c__xampp_htdocs_moviespace_web_app_views_index_index.volt.php(7): Phalcon\\Mvc\\View\\Engine\\Volt->callMacro('renderTitle', Array)\n#1 [internal function]: unknown()\n#2 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt->render('C:\\\\xampp\\\\htdocs...', Array, true)\n#3 [internal function]: Phalcon\\Mvc\\View->_engineRender(Array, 'index\/index', true, true, NULL)\n#4 [internal function]: Phalcon\\Mvc\\View->render('index', 'index')\n#5 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/')\n#6 {main}"}
+[Sun, 03 May 20 19:32:41 +0200][ERROR] {"message":"Macro 'renderTitle' does not exist","trace":"#0 C:\\xampp\\htdocs\\moviespace\\web\\cache\\volt\\c__xampp_htdocs_moviespace_web_app_views_index_index.volt.php(7): Phalcon\\Mvc\\View\\Engine\\Volt->callMacro('renderTitle', Array)\n#1 [internal function]: unknown()\n#2 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt->render('C:\\\\xampp\\\\htdocs...', Array, true)\n#3 [internal function]: Phalcon\\Mvc\\View->_engineRender(Array, 'index\/index', true, true, NULL)\n#4 [internal function]: Phalcon\\Mvc\\View->render('index', 'index')\n#5 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/')\n#6 {main}"}
+[Sun, 03 May 20 19:33:50 +0200][ERROR] {"message":"Macro 'renderTitle' does not exist","trace":"#0 C:\\xampp\\htdocs\\moviespace\\web\\cache\\volt\\c__xampp_htdocs_moviespace_web_app_views_index_index.volt.php(7): Phalcon\\Mvc\\View\\Engine\\Volt->callMacro('renderTitle', Array)\n#1 [internal function]: unknown()\n#2 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt->render('C:\\\\xampp\\\\htdocs...', Array, true)\n#3 [internal function]: Phalcon\\Mvc\\View->_engineRender(Array, 'index\/index', true, true, NULL)\n#4 [internal function]: Phalcon\\Mvc\\View->render('index', 'index')\n#5 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/')\n#6 {main}"}
+[Sun, 03 May 20 19:39:55 +0200][ERROR] {"code":0,"message":"Call to undefined method \u0001::getoption()"}
+[Sun, 03 May 20 19:39:55 +0200][ERROR] {"message":"Call to undefined method \u0001::getoption()","trace":"#0 [internal function]: Phalcon\\Validation->preChecking('email', Object(Phalcon\\Forms\\Element\\Email))\n#1 [internal function]: Phalcon\\Validation->validate(Array, NULL)\n#2 C:\\xampp\\htdocs\\moviespace\\web\\app\\controllers\\IndexController.php(83): Phalcon\\Forms\\Form->isValid(Array)\n#3 [internal function]: MovieSpace\\Controllers\\IndexController->registerAction()\n#4 [internal function]: Phalcon\\Dispatcher->callActionMethod(Object(MovieSpace\\Controllers\\IndexController), 'registerAction', Array)\n#5 [internal function]: Phalcon\\Dispatcher->dispatch()\n#6 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/register')\n#7 {main}"}
+[Sun, 03 May 20 20:25:16 +0200][ERROR] {"code":2,"message":"MovieSpace\\Controllers\\MoviesController handler class cannot be loaded"}
+[Sun, 03 May 20 20:25:16 +0200][ERROR] {"message":"MovieSpace\\Controllers\\MoviesController handler class cannot be loaded","trace":"#0 [internal function]: Phalcon\\Mvc\\Dispatcher->_throwDispatchException('MovieSpace\\\\Cont...', 2)\n#1 [internal function]: Phalcon\\Dispatcher->dispatch()\n#2 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#3 {main}"}
+[Sun, 03 May 20 20:32:21 +0200][ERROR] {"code":2,"message":"MovieSpace\\Controllers\\MoviesController handler class cannot be loaded"}
+[Sun, 03 May 20 20:32:21 +0200][ERROR] {"message":"MovieSpace\\Controllers\\MoviesController handler class cannot be loaded","trace":"#0 [internal function]: Phalcon\\Mvc\\Dispatcher->_throwDispatchException('MovieSpace\\\\Cont...', 2)\n#1 [internal function]: Phalcon\\Dispatcher->dispatch()\n#2 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#3 {main}"}
+[Sun, 03 May 20 20:35:29 +0200][ERROR] {"code":2,"message":"MovieSpace\\Controllers\\MoviesController handler class cannot be loaded"}
+[Sun, 03 May 20 20:35:29 +0200][ERROR] {"message":"MovieSpace\\Controllers\\MoviesController handler class cannot be loaded","trace":"#0 [internal function]: Phalcon\\Mvc\\Dispatcher->_throwDispatchException('MovieSpace\\\\Cont...', 2)\n#1 [internal function]: Phalcon\\Dispatcher->dispatch()\n#2 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#3 {main}"}
+[Sun, 03 May 20 20:37:22 +0200][ERROR] {"code":2,"message":"MovieSpace\\Controllers\\MoviesController handler class cannot be loaded"}
+[Sun, 03 May 20 21:54:40 +0200][ERROR] {"message":"Not Found","trace":"#0 [internal function]: MovieSpace\\Plugins\\SecurityPlugin->beforeNotFoundAction(Object(Phalcon\\Events\\Event), Object(Phalcon\\Mvc\\Dispatcher), NULL)\n#1 [internal function]: Phalcon\\Events\\Manager->fireQueue(Array, Object(Phalcon\\Events\\Event))\n#2 [internal function]: Phalcon\\Events\\Manager->fire('dispatch:before...', Object(Phalcon\\Mvc\\Dispatcher))\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/index\/gg')\n#5 {main}"}
+[Sun, 03 May 20 21:55:38 +0200][ERROR] {"code":2,"message":"MovieSpace\\Controllers\\MoviesController handler class cannot be loaded"}
+[Sun, 03 May 20 21:55:38 +0200][ERROR] {"message":"MovieSpace\\Controllers\\MoviesController handler class cannot be loaded","trace":"#0 [internal function]: Phalcon\\Mvc\\Dispatcher->_throwDispatchException('MovieSpace\\\\Cont...', 2)\n#1 [internal function]: Phalcon\\Dispatcher->dispatch()\n#2 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#3 {main}"}
+[Sun, 03 May 20 21:56:30 +0200][ERROR] {"code":2,"message":"MovieSpace\\Controllers\\MoviesController handler class cannot be loaded"}
+[Sun, 03 May 20 21:56:30 +0200][ERROR] {"message":"MovieSpace\\Controllers\\MoviesController handler class cannot be loaded","trace":"#0 [internal function]: Phalcon\\Mvc\\Dispatcher->_throwDispatchException('MovieSpace\\\\Cont...', 2)\n#1 [internal function]: Phalcon\\Dispatcher->dispatch()\n#2 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#3 {main}"}
+[Mon, 04 May 20 14:40:13 +0200][ERROR] {"code":401,"message":"Access Denied"}
+[Mon, 04 May 20 14:40:13 +0200][ERROR] {"message":"Access Denied","trace":"#0 [internal function]: MovieSpace\\Plugins\\SecurityPlugin->beforeExecuteRoute(Object(Phalcon\\Events\\Event), Object(Phalcon\\Mvc\\Dispatcher), NULL)\n#1 [internal function]: Phalcon\\Events\\Manager->fireQueue(Array, Object(Phalcon\\Events\\Event))\n#2 [internal function]: Phalcon\\Events\\Manager->fire('dispatch:before...', Object(Phalcon\\Mvc\\Dispatcher))\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/index\/test')\n#5 {main}"}
+[Mon, 04 May 20 14:41:05 +0200][ERROR] {"code":401,"message":"Access Denied"}
+[Mon, 04 May 20 14:41:05 +0200][ERROR] {"message":"Access Denied","trace":"#0 [internal function]: MovieSpace\\Plugins\\SecurityPlugin->beforeExecuteRoute(Object(Phalcon\\Events\\Event), Object(Phalcon\\Mvc\\Dispatcher), NULL)\n#1 [internal function]: Phalcon\\Events\\Manager->fireQueue(Array, Object(Phalcon\\Events\\Event))\n#2 [internal function]: Phalcon\\Events\\Manager->fire('dispatch:before...', Object(Phalcon\\Mvc\\Dispatcher))\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#5 {main}"}
+[Mon, 04 May 20 14:41:36 +0200][ERROR] {"code":401,"message":"Access Denied"}
+[Mon, 04 May 20 14:41:36 +0200][ERROR] {"message":"Access Denied","trace":"#0 [internal function]: MovieSpace\\Plugins\\SecurityPlugin->beforeExecuteRoute(Object(Phalcon\\Events\\Event), Object(Phalcon\\Mvc\\Dispatcher), NULL)\n#1 [internal function]: Phalcon\\Events\\Manager->fireQueue(Array, Object(Phalcon\\Events\\Event))\n#2 [internal function]: Phalcon\\Events\\Manager->fire('dispatch:before...', Object(Phalcon\\Mvc\\Dispatcher))\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#5 {main}"}
+[Mon, 04 May 20 15:03:31 +0200][ERROR] {"message":"Not Found","trace":"#0 [internal function]: MovieSpace\\Plugins\\SecurityPlugin->beforeNotFoundAction(Object(Phalcon\\Events\\Event), Object(Phalcon\\Mvc\\Dispatcher), NULL)\n#1 [internal function]: Phalcon\\Events\\Manager->fireQueue(Array, Object(Phalcon\\Events\\Event))\n#2 [internal function]: Phalcon\\Events\\Manager->fire('dispatch:before...', Object(Phalcon\\Mvc\\Dispatcher))\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movie\/1')\n#5 {main}"}
+[Mon, 04 May 20 15:49:18 +0200][ERROR] {"code":2,"message":"MovieSpace\\Controllers\\MoviesController handler class cannot be loaded"}
+[Mon, 04 May 20 15:49:18 +0200][ERROR] {"message":"MovieSpace\\Controllers\\MoviesController handler class cannot be loaded","trace":"#0 [internal function]: Phalcon\\Mvc\\Dispatcher->_throwDispatchException('MovieSpace\\\\Cont...', 2)\n#1 [internal function]: Phalcon\\Dispatcher->dispatch()\n#2 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#3 {main}"}
+[Mon, 04 May 20 15:50:28 +0200][ERROR] {"code":2,"message":"MovieSpace\\Controllers\\MoviesController handler class cannot be loaded"}
+[Mon, 04 May 20 15:50:28 +0200][ERROR] {"message":"MovieSpace\\Controllers\\MoviesController handler class cannot be loaded","trace":"#0 [internal function]: Phalcon\\Mvc\\Dispatcher->_throwDispatchException('MovieSpace\\\\Cont...', 2)\n#1 [internal function]: Phalcon\\Dispatcher->dispatch()\n#2 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#3 {main}"}
+[Mon, 04 May 20 17:31:33 +0200][ERROR] {"message":"Syntax error, unexpected token IDENTIFIER(Details) in C:\\xampp\\htdocs\\moviespace\\web\/app\/views\/\\movie\/detail.volt on line 6","trace":"#0 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler->_compileSource('{% extends 'lay...', false)\n#1 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler->compileFile('C:\\\\xampp\\\\htdocs...', 'C:\\\\xampp\\\\htdocs...', false)\n#2 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler->compile('C:\\\\xampp\\\\htdocs...')\n#3 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt->render('C:\\\\xampp\\\\htdocs...', Array, true)\n#4 [internal function]: Phalcon\\Mvc\\View->_engineRender(Array, 'movie\/detail', true, true, NULL)\n#5 [internal function]: Phalcon\\Mvc\\View->render('movie', 'detail')\n#6 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movie\/1')\n#7 {main}"}
+[Tue, 05 May 20 13:08:54 +0200][ERROR] {"code":401,"message":"Access Denied"}
+[Tue, 05 May 20 13:08:54 +0200][ERROR] {"message":"Access Denied","trace":"#0 [internal function]: MovieSpace\\Plugins\\SecurityPlugin->beforeExecuteRoute(Object(Phalcon\\Events\\Event), Object(Phalcon\\Mvc\\Dispatcher), NULL)\n#1 [internal function]: Phalcon\\Events\\Manager->fireQueue(Array, Object(Phalcon\\Events\\Event))\n#2 [internal function]: Phalcon\\Events\\Manager->fire('dispatch:before...', Object(Phalcon\\Mvc\\Dispatcher))\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movie\/1')\n#5 {main}"}
+[Tue, 05 May 20 13:13:44 +0200][ERROR] {"code":401,"message":"Access Denied"}
+[Tue, 05 May 20 13:13:53 +0200][ERROR] {"code":401,"message":"Access Denied"}
+[Tue, 05 May 20 13:21:30 +0200][ERROR] Current Route: movie/detail
+[Tue, 05 May 20 13:21:51 +0200][ERROR] {"code":2,"message":"MovieSpace\\Controllers\\CodeController handler class cannot be loaded"}
+[Tue, 05 May 20 13:21:51 +0200][ERROR] {"message":"MovieSpace\\Controllers\\CodeController handler class cannot be loaded","trace":"#0 [internal function]: Phalcon\\Mvc\\Dispatcher->_throwDispatchException('MovieSpace\\\\Cont...', 2)\n#1 [internal function]: Phalcon\\Dispatcher->dispatch()\n#2 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/code\/error500')\n#3 {main}"}
+[Tue, 05 May 20 13:22:59 +0200][ERROR] Current Route: movie/detail
+[Tue, 05 May 20 13:23:01 +0200][ERROR] Current Route: index/logout
+[Tue, 05 May 20 13:23:01 +0200][ERROR] Current Route: index/index
+[Tue, 05 May 20 13:23:04 +0200][ERROR] Current Route: movie/detail
+[Tue, 05 May 20 13:23:04 +0200][ERROR] {"code":401,"message":"Access Denied"}
+[Tue, 05 May 20 13:23:04 +0200][ERROR] {"message":"Access Denied","trace":"#0 [internal function]: MovieSpace\\Plugins\\SecurityPlugin->beforeExecuteRoute(Object(Phalcon\\Events\\Event), Object(Phalcon\\Mvc\\Dispatcher), NULL)\n#1 [internal function]: Phalcon\\Events\\Manager->fireQueue(Array, Object(Phalcon\\Events\\Event))\n#2 [internal function]: Phalcon\\Events\\Manager->fire('dispatch:before...', Object(Phalcon\\Mvc\\Dispatcher))\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movie\/1')\n#5 {main}"}
+[Tue, 05 May 20 13:23:04 +0200][ERROR] Current Route: errors/code401
+[Tue, 05 May 20 15:07:20 +0200][ERROR] Current Route: movie/detail
+[Tue, 05 May 20 15:07:20 +0200][ERROR] {"code":401,"message":"Access Denied"}
+[Tue, 05 May 20 15:07:20 +0200][ERROR] {"message":"Access Denied","trace":"#0 [internal function]: MovieSpace\\Plugins\\SecurityPlugin->beforeExecuteRoute(Object(Phalcon\\Events\\Event), Object(Phalcon\\Mvc\\Dispatcher), NULL)\n#1 [internal function]: Phalcon\\Events\\Manager->fireQueue(Array, Object(Phalcon\\Events\\Event))\n#2 [internal function]: Phalcon\\Events\\Manager->fire('dispatch:before...', Object(Phalcon\\Mvc\\Dispatcher))\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movie\/1')\n#5 {main}"}
+[Tue, 05 May 20 15:07:20 +0200][ERROR] Current Route: errors/code401
+[Tue, 05 May 20 15:07:26 +0200][ERROR] Current Route: index/index
+[Tue, 05 May 20 15:08:02 +0200][ERROR] Current Route: index/index
+[Tue, 05 May 20 15:08:03 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 15:08:18 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 15:08:25 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 15:08:29 +0200][ERROR] Current Route: movie/detail
+[Tue, 05 May 20 15:08:33 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 15:26:07 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 15:26:07 +0200][ERROR] {"message":"Syntax error, unexpected token IF in C:\\xampp\\htdocs\\moviespace\\web\/app\/views\/\\layouts\/default.volt on line 26","trace":"#0 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler->_compileSource('{{ get_doctype(...', true)\n#1 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler->compileFile('C:\\\\xampp\\\\htdocs...', 'C:\\\\xampp\\\\htdocs...', true)\n#2 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler->compile('C:\\\\xampp\\\\htdocs...', true)\n#3 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler->_statementList(Array, false)\n#4 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler->_compileSource('{% extends 'lay...', false)\n#5 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler->compileFile('C:\\\\xampp\\\\htdocs...', 'C:\\\\xampp\\\\htdocs...', false)\n#6 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler->compile('C:\\\\xampp\\\\htdocs...')\n#7 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt->render('C:\\\\xampp\\\\htdocs...', Array, true)\n#8 [internal function]: Phalcon\\Mvc\\View->_engineRender(Array, 'movie\/index', true, true, NULL)\n#9 [internal function]: Phalcon\\Mvc\\View->render('movie', 'index')\n#10 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#11 {main}"}
+[Tue, 05 May 20 15:26:11 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 15:26:11 +0200][ERROR] {"message":"Syntax error, unexpected token IF in C:\\xampp\\htdocs\\moviespace\\web\/app\/views\/\\layouts\/default.volt on line 26","trace":"#0 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler->_compileSource('{{ get_doctype(...', true)\n#1 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler->compileFile('C:\\\\xampp\\\\htdocs...', 'C:\\\\xampp\\\\htdocs...', true)\n#2 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler->compile('C:\\\\xampp\\\\htdocs...', true)\n#3 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler->_statementList(Array, false)\n#4 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler->_compileSource('{% extends 'lay...', false)\n#5 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler->compileFile('C:\\\\xampp\\\\htdocs...', 'C:\\\\xampp\\\\htdocs...', false)\n#6 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler->compile('C:\\\\xampp\\\\htdocs...')\n#7 [internal function]: Phalcon\\Mvc\\View\\Engine\\Volt->render('C:\\\\xampp\\\\htdocs...', Array, true)\n#8 [internal function]: Phalcon\\Mvc\\View->_engineRender(Array, 'movie\/index', true, true, NULL)\n#9 [internal function]: Phalcon\\Mvc\\View->render('movie', 'index')\n#10 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#11 {main}"}
+[Tue, 05 May 20 15:27:43 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 15:27:46 +0200][ERROR] Current Route: movie/detail
+[Tue, 05 May 20 15:27:50 +0200][ERROR] Current Route: user/movieFav
+[Tue, 05 May 20 15:27:50 +0200][ERROR] {"code":0,"message":"json_decode error: Syntax error"}
+[Tue, 05 May 20 15:27:50 +0200][ERROR] {"message":"json_decode error: Syntax error","trace":"#0 C:\\xampp\\htdocs\\moviespace\\web\\app\\library\\ApiClient.php(112): GuzzleHttp\\json_decode(Object(GuzzleHttp\\Psr7\\Stream))\n#1 C:\\xampp\\htdocs\\moviespace\\web\\app\\controllers\\UserController.php(52): MovieSpace\\ApiClient->__call('GET', Array)\n#2 [internal function]: MovieSpace\\Controllers\\UserController->movieFavAction('1')\n#3 [internal function]: Phalcon\\Dispatcher->callActionMethod(Object(MovieSpace\\Controllers\\UserController), 'movieFavAction', Array)\n#4 [internal function]: Phalcon\\Dispatcher->dispatch()\n#5 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/user\/movies\/fa...')\n#6 {main}"}
+[Tue, 05 May 20 15:27:50 +0200][ERROR] Current Route: errors/code404
+[Tue, 05 May 20 15:27:58 +0200][ERROR] Current Route: movie/detail
+[Tue, 05 May 20 15:31:05 +0200][ERROR] Current Route: movie/detail
+[Tue, 05 May 20 15:31:10 +0200][ERROR] Current Route: user/movieFav
+[Tue, 05 May 20 15:31:10 +0200][ERROR] Current Route: movie/detail
+[Tue, 05 May 20 15:31:16 +0200][ERROR] {"message":"Not Found","trace":"#0 [internal function]: MovieSpace\\Plugins\\SecurityPlugin->beforeNotFoundAction(Object(Phalcon\\Events\\Event), Object(Phalcon\\Mvc\\Dispatcher), NULL)\n#1 [internal function]: Phalcon\\Events\\Manager->fireQueue(Array, Object(Phalcon\\Events\\Event))\n#2 [internal function]: Phalcon\\Events\\Manager->fire('dispatch:before...', Object(Phalcon\\Mvc\\Dispatcher))\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/user\/movies\/un...')\n#5 {main}"}
+[Tue, 05 May 20 15:33:25 +0200][ERROR] Current Route: user/movieUnFav
+[Tue, 05 May 20 15:33:25 +0200][ERROR] Current Route: movie/detail
+[Tue, 05 May 20 16:21:59 +0200][ERROR] Current Route: index/logout
+[Tue, 05 May 20 16:21:59 +0200][ERROR] Current Route: index/index
+[Tue, 05 May 20 16:22:02 +0200][ERROR] Current Route: movie/detail
+[Tue, 05 May 20 16:22:02 +0200][ERROR] {"code":401,"message":"Access Denied"}
+[Tue, 05 May 20 16:22:02 +0200][ERROR] {"message":"Access Denied","trace":"#0 [internal function]: MovieSpace\\Plugins\\SecurityPlugin->beforeExecuteRoute(Object(Phalcon\\Events\\Event), Object(Phalcon\\Mvc\\Dispatcher), NULL)\n#1 [internal function]: Phalcon\\Events\\Manager->fireQueue(Array, Object(Phalcon\\Events\\Event))\n#2 [internal function]: Phalcon\\Events\\Manager->fire('dispatch:before...', Object(Phalcon\\Mvc\\Dispatcher))\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movie\/1')\n#5 {main}"}
+[Tue, 05 May 20 16:22:02 +0200][ERROR] Current Route: errors/code401
+[Tue, 05 May 20 16:25:31 +0200][ERROR] Current Route: movie/detail
+[Tue, 05 May 20 16:25:31 +0200][ERROR] {"code":401,"message":"Access Denied"}
+[Tue, 05 May 20 16:25:31 +0200][ERROR] {"message":"Access Denied","trace":"#0 [internal function]: MovieSpace\\Plugins\\SecurityPlugin->beforeExecuteRoute(Object(Phalcon\\Events\\Event), Object(Phalcon\\Mvc\\Dispatcher), NULL)\n#1 [internal function]: Phalcon\\Events\\Manager->fireQueue(Array, Object(Phalcon\\Events\\Event))\n#2 [internal function]: Phalcon\\Events\\Manager->fire('dispatch:before...', Object(Phalcon\\Mvc\\Dispatcher))\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movie\/1')\n#5 {main}"}
+[Tue, 05 May 20 16:25:31 +0200][ERROR] Current Route: errors/code401
+[Tue, 05 May 20 16:25:52 +0200][ERROR] Current Route: errors/code401
+[Tue, 05 May 20 16:26:08 +0200][ERROR] Current Route: errors/code401
+[Tue, 05 May 20 16:26:12 +0200][ERROR] Current Route: index/index
+[Tue, 05 May 20 16:27:17 +0200][ERROR] Current Route: index/index
+[Tue, 05 May 20 16:27:17 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 16:28:03 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 16:28:06 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 16:29:38 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 16:31:02 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 16:31:43 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 16:31:47 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 16:31:49 +0200][ERROR] Current Route: movie/detail
+[Tue, 05 May 20 16:31:53 +0200][ERROR] Current Route: user/movieFav
+[Tue, 05 May 20 16:31:53 +0200][ERROR] Current Route: movie/detail
+[Tue, 05 May 20 16:31:56 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:03:10 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:03:44 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:03:46 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:04:48 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:05:10 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:05:27 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:05:30 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:05:38 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:06:11 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:06:19 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:06:25 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:06:32 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:06:39 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:06:54 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:06:57 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 17:16:36 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 17:18:40 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 17:18:40 +0200][ERROR] {"code":401,"message":"Access Denied"}
+[Tue, 05 May 20 17:18:40 +0200][ERROR] {"message":"Access Denied","trace":"#0 [internal function]: MovieSpace\\Plugins\\SecurityPlugin->beforeExecuteRoute(Object(Phalcon\\Events\\Event), Object(Phalcon\\Mvc\\Dispatcher), NULL)\n#1 [internal function]: Phalcon\\Events\\Manager->fireQueue(Array, Object(Phalcon\\Events\\Event))\n#2 [internal function]: Phalcon\\Events\\Manager->fire('dispatch:before...', Object(Phalcon\\Mvc\\Dispatcher))\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#5 {main}"}
+[Tue, 05 May 20 17:18:40 +0200][ERROR] Current Route: errors/code401
+[Tue, 05 May 20 17:19:09 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 17:30:09 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 17:30:54 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 17:31:59 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 17:31:59 +0200][ERROR] {"code":0,"message":"Invalid data for paginator"}
+[Tue, 05 May 20 17:31:59 +0200][ERROR] {"message":"Invalid data for paginator","trace":"#0 C:\\xampp\\htdocs\\moviespace\\web\\app\\controllers\\MovieController.php(49): Phalcon\\Paginator\\Adapter\\Model->paginate()\n#1 [internal function]: MovieSpace\\Controllers\\MovieController->indexAction()\n#2 [internal function]: Phalcon\\Dispatcher->callActionMethod(Object(MovieSpace\\Controllers\\MovieController), 'indexAction', Array)\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#5 {main}"}
+[Tue, 05 May 20 17:31:59 +0200][ERROR] Current Route: errors/code404
+[Tue, 05 May 20 17:32:05 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 17:32:05 +0200][ERROR] {"code":0,"message":"Invalid data for paginator"}
+[Tue, 05 May 20 17:32:05 +0200][ERROR] {"message":"Invalid data for paginator","trace":"#0 C:\\xampp\\htdocs\\moviespace\\web\\app\\controllers\\MovieController.php(49): Phalcon\\Paginator\\Adapter\\Model->paginate()\n#1 [internal function]: MovieSpace\\Controllers\\MovieController->indexAction()\n#2 [internal function]: Phalcon\\Dispatcher->callActionMethod(Object(MovieSpace\\Controllers\\MovieController), 'indexAction', Array)\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#5 {main}"}
+[Tue, 05 May 20 17:32:05 +0200][ERROR] Current Route: errors/code404
+[Tue, 05 May 20 17:36:14 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 17:36:18 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 17:36:26 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:37:02 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:37:08 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:38:44 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:38:56 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:40:41 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:42:10 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:42:14 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 17:46:34 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 17:46:38 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 17:46:41 +0200][ERROR] Current Route: movie/index
+[Tue, 05 May 20 17:46:46 +0200][ERROR] Current Route: user/movies
+[Tue, 05 May 20 17:49:16 +0200][ERROR] Current Route: user/movies
+[Wed, 06 May 20 13:49:50 +0200][ERROR] Current Route: user/movies
+[Wed, 06 May 20 13:49:57 +0200][ERROR] {"code":0,"message":"cURL error 28: Operation timed out after 2000 milliseconds with 0 bytes received (see https:\/\/curl.haxx.se\/libcurl\/c\/libcurl-errors.html)"}
+[Wed, 06 May 20 13:49:57 +0200][ERROR] {"message":"cURL error 28: Operation timed out after 2000 milliseconds with 0 bytes received (see https:\/\/curl.haxx.se\/libcurl\/c\/libcurl-errors.html)","trace":"#0 C:\\xampp\\htdocs\\moviespace\\web\\app\\controllers\\UserController.php(32): MovieSpace\\ApiClient->__call('GET', Array)\n#1 [internal function]: MovieSpace\\Controllers\\UserController->moviesAction()\n#2 [internal function]: Phalcon\\Dispatcher->callActionMethod(Object(MovieSpace\\Controllers\\UserController), 'moviesAction', Array)\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/user\/movies')\n#5 {main}"}
+[Wed, 06 May 20 13:49:58 +0200][ERROR] Current Route: errors/code404
+[Wed, 06 May 20 13:50:20 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 13:50:21 +0200][ERROR] {"code":0,"message":"json_decode error: Syntax error"}
+[Wed, 06 May 20 13:50:21 +0200][ERROR] {"message":"json_decode error: Syntax error","trace":"#0 C:\\xampp\\htdocs\\moviespace\\web\\app\\library\\ApiClient.php(112): GuzzleHttp\\json_decode(Object(GuzzleHttp\\Psr7\\Stream))\n#1 C:\\xampp\\htdocs\\moviespace\\web\\app\\controllers\\MovieController.php(23): MovieSpace\\ApiClient->__call('GET', Array)\n#2 [internal function]: MovieSpace\\Controllers\\MovieController->indexAction()\n#3 [internal function]: Phalcon\\Dispatcher->callActionMethod(Object(MovieSpace\\Controllers\\MovieController), 'indexAction', Array)\n#4 [internal function]: Phalcon\\Dispatcher->dispatch()\n#5 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#6 {main}"}
+[Wed, 06 May 20 13:50:21 +0200][ERROR] Current Route: errors/code404
+[Wed, 06 May 20 13:50:36 +0200][ERROR] Current Route: index/logout
+[Wed, 06 May 20 13:50:36 +0200][ERROR] Current Route: index/index
+[Wed, 06 May 20 13:50:58 +0200][ERROR] Current Route: index/index
+[Wed, 06 May 20 13:51:00 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 13:51:00 +0200][ERROR] {"code":0,"message":"json_decode error: Syntax error"}
+[Wed, 06 May 20 13:51:00 +0200][ERROR] {"message":"json_decode error: Syntax error","trace":"#0 C:\\xampp\\htdocs\\moviespace\\web\\app\\library\\ApiClient.php(112): GuzzleHttp\\json_decode(Object(GuzzleHttp\\Psr7\\Stream))\n#1 C:\\xampp\\htdocs\\moviespace\\web\\app\\controllers\\MovieController.php(23): MovieSpace\\ApiClient->__call('GET', Array)\n#2 [internal function]: MovieSpace\\Controllers\\MovieController->indexAction()\n#3 [internal function]: Phalcon\\Dispatcher->callActionMethod(Object(MovieSpace\\Controllers\\MovieController), 'indexAction', Array)\n#4 [internal function]: Phalcon\\Dispatcher->dispatch()\n#5 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#6 {main}"}
+[Wed, 06 May 20 13:51:00 +0200][ERROR] Current Route: errors/code404
+[Wed, 06 May 20 14:02:46 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 14:02:49 +0200][ERROR] {"code":0,"message":"json_decode error: Syntax error"}
+[Wed, 06 May 20 14:02:49 +0200][ERROR] {"message":"json_decode error: Syntax error","trace":"#0 C:\\xampp\\htdocs\\moviespace\\web\\app\\library\\ApiClient.php(112): GuzzleHttp\\json_decode(Object(GuzzleHttp\\Psr7\\Stream))\n#1 C:\\xampp\\htdocs\\moviespace\\web\\app\\controllers\\MovieController.php(23): MovieSpace\\ApiClient->__call('GET', Array)\n#2 [internal function]: MovieSpace\\Controllers\\MovieController->indexAction()\n#3 [internal function]: Phalcon\\Dispatcher->callActionMethod(Object(MovieSpace\\Controllers\\MovieController), 'indexAction', Array)\n#4 [internal function]: Phalcon\\Dispatcher->dispatch()\n#5 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#6 {main}"}
+[Wed, 06 May 20 14:02:49 +0200][ERROR] Current Route: errors/code404
+[Wed, 06 May 20 14:43:29 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 14:43:29 +0200][ERROR] {"code":0,"message":"json_decode error: Syntax error"}
+[Wed, 06 May 20 14:43:29 +0200][ERROR] {"message":"json_decode error: Syntax error","trace":"#0 C:\\xampp\\htdocs\\moviespace\\web\\app\\library\\ApiClient.php(112): GuzzleHttp\\json_decode(Object(GuzzleHttp\\Psr7\\Stream))\n#1 C:\\xampp\\htdocs\\moviespace\\web\\app\\controllers\\MovieController.php(23): MovieSpace\\ApiClient->__call('GET', Array)\n#2 [internal function]: MovieSpace\\Controllers\\MovieController->indexAction()\n#3 [internal function]: Phalcon\\Dispatcher->callActionMethod(Object(MovieSpace\\Controllers\\MovieController), 'indexAction', Array)\n#4 [internal function]: Phalcon\\Dispatcher->dispatch()\n#5 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#6 {main}"}
+[Wed, 06 May 20 14:43:29 +0200][ERROR] Current Route: errors/code404
+[Wed, 06 May 20 15:02:32 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 15:11:21 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 15:15:15 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 15:15:15 +0200][ERROR] {"code":0,"message":"json_decode error: Syntax error"}
+[Wed, 06 May 20 15:15:15 +0200][ERROR] {"message":"json_decode error: Syntax error","trace":"#0 C:\\xampp\\htdocs\\moviespace\\web\\app\\library\\ApiClient.php(112): GuzzleHttp\\json_decode(Object(GuzzleHttp\\Psr7\\Stream))\n#1 C:\\xampp\\htdocs\\moviespace\\web\\app\\controllers\\MovieController.php(23): MovieSpace\\ApiClient->__call('GET', Array)\n#2 [internal function]: MovieSpace\\Controllers\\MovieController->indexAction()\n#3 [internal function]: Phalcon\\Dispatcher->callActionMethod(Object(MovieSpace\\Controllers\\MovieController), 'indexAction', Array)\n#4 [internal function]: Phalcon\\Dispatcher->dispatch()\n#5 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#6 {main}"}
+[Wed, 06 May 20 15:15:15 +0200][ERROR] Current Route: errors/code404
+[Wed, 06 May 20 15:17:36 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 15:17:36 +0200][ERROR] {"code":0,"message":"json_decode error: Syntax error"}
+[Wed, 06 May 20 15:17:36 +0200][ERROR] {"message":"json_decode error: Syntax error","trace":"#0 C:\\xampp\\htdocs\\moviespace\\web\\app\\library\\ApiClient.php(112): GuzzleHttp\\json_decode(Object(GuzzleHttp\\Psr7\\Stream))\n#1 C:\\xampp\\htdocs\\moviespace\\web\\app\\controllers\\MovieController.php(23): MovieSpace\\ApiClient->__call('GET', Array)\n#2 [internal function]: MovieSpace\\Controllers\\MovieController->indexAction()\n#3 [internal function]: Phalcon\\Dispatcher->callActionMethod(Object(MovieSpace\\Controllers\\MovieController), 'indexAction', Array)\n#4 [internal function]: Phalcon\\Dispatcher->dispatch()\n#5 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#6 {main}"}
+[Wed, 06 May 20 15:17:36 +0200][ERROR] Current Route: errors/code404
+[Wed, 06 May 20 15:23:06 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 15:23:06 +0200][ERROR] {"code":0,"message":"json_decode error: Syntax error"}
+[Wed, 06 May 20 15:23:06 +0200][ERROR] {"message":"json_decode error: Syntax error","trace":"#0 C:\\xampp\\htdocs\\moviespace\\web\\app\\library\\ApiClient.php(112): GuzzleHttp\\json_decode(Object(GuzzleHttp\\Psr7\\Stream))\n#1 C:\\xampp\\htdocs\\moviespace\\web\\app\\controllers\\MovieController.php(23): MovieSpace\\ApiClient->__call('GET', Array)\n#2 [internal function]: MovieSpace\\Controllers\\MovieController->indexAction()\n#3 [internal function]: Phalcon\\Dispatcher->callActionMethod(Object(MovieSpace\\Controllers\\MovieController), 'indexAction', Array)\n#4 [internal function]: Phalcon\\Dispatcher->dispatch()\n#5 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#6 {main}"}
+[Wed, 06 May 20 15:23:06 +0200][ERROR] Current Route: errors/code404
+[Wed, 06 May 20 16:03:35 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 16:03:35 +0200][ERROR] {"code":0,"message":"json_decode error: Syntax error"}
+[Wed, 06 May 20 16:03:35 +0200][ERROR] {"message":"json_decode error: Syntax error","trace":"#0 C:\\xampp\\htdocs\\moviespace\\web\\app\\library\\ApiClient.php(112): GuzzleHttp\\json_decode(Object(GuzzleHttp\\Psr7\\Stream))\n#1 C:\\xampp\\htdocs\\moviespace\\web\\app\\controllers\\MovieController.php(23): MovieSpace\\ApiClient->__call('GET', Array)\n#2 [internal function]: MovieSpace\\Controllers\\MovieController->indexAction()\n#3 [internal function]: Phalcon\\Dispatcher->callActionMethod(Object(MovieSpace\\Controllers\\MovieController), 'indexAction', Array)\n#4 [internal function]: Phalcon\\Dispatcher->dispatch()\n#5 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#6 {main}"}
+[Wed, 06 May 20 16:03:35 +0200][ERROR] Current Route: errors/code404
+[Wed, 06 May 20 16:03:56 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 16:50:52 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 16:51:04 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 17:01:53 +0200][ERROR] Current Route: movie/detail
+[Wed, 06 May 20 17:12:58 +0200][ERROR] Current Route: movie/detail
+[Wed, 06 May 20 17:13:06 +0200][ERROR] Current Route: movie/detail
+[Wed, 06 May 20 17:13:07 +0200][ERROR] {"code":500,"message":"{\"code\":500,\"status\":\"error\",\"message\":\"Server Error\"}"}
+[Wed, 06 May 20 17:13:07 +0200][ERROR] {"message":"{\"code\":500,\"status\":\"error\",\"message\":\"Server Error\"}","trace":"#0 C:\\xampp\\htdocs\\moviespace\\web\\app\\controllers\\MovieController.php(57): MovieSpace\\ApiClient->__call('GET', Array)\n#1 [internal function]: MovieSpace\\Controllers\\MovieController->detailAction('21')\n#2 [internal function]: Phalcon\\Dispatcher->callActionMethod(Object(MovieSpace\\Controllers\\MovieController), 'detailAction', Array)\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movie\/21')\n#5 {main}"}
+[Wed, 06 May 20 17:13:07 +0200][ERROR] Current Route: errors/code500
+[Wed, 06 May 20 17:13:12 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 17:13:31 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 17:14:03 +0200][ERROR] Current Route: movie/detail
+[Wed, 06 May 20 18:25:53 +0200][ERROR] Current Route: movie/detail
+[Wed, 06 May 20 18:25:57 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 18:26:09 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 18:26:25 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 19:36:35 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 21:01:04 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 21:02:26 +0200][ERROR] Current Route: movie/index
+[Wed, 06 May 20 21:02:33 +0200][ERROR] Current Route: movie/detail
+[Wed, 06 May 20 21:03:19 +0200][ERROR] Current Route: movie/detail
+[Wed, 06 May 20 21:03:34 +0200][ERROR] Current Route: movie/detail
+[Wed, 06 May 20 21:04:17 +0200][ERROR] Current Route: movie/detail
+[Wed, 06 May 20 21:23:31 +0200][ERROR] Current Route: movie/detail
+[Wed, 06 May 20 21:24:01 +0200][ERROR] Current Route: movie/detail
+[Wed, 06 May 20 21:24:17 +0200][ERROR] Current Route: movie/detail
+[Wed, 06 May 20 21:27:46 +0200][ERROR] Current Route: movie/detail
+[Wed, 06 May 20 21:28:42 +0200][ERROR] Current Route: movie/detail
+[Thu, 07 May 20 11:19:56 +0200][ERROR] Current Route: movie/index
+[Thu, 07 May 20 11:19:56 +0200][ERROR] {"code":401,"message":"Access Denied"}
+[Thu, 07 May 20 11:19:56 +0200][ERROR] {"message":"Access Denied","trace":"#0 [internal function]: MovieSpace\\Plugins\\SecurityPlugin->beforeExecuteRoute(Object(Phalcon\\Events\\Event), Object(Phalcon\\Mvc\\Dispatcher), NULL)\n#1 [internal function]: Phalcon\\Events\\Manager->fireQueue(Array, Object(Phalcon\\Events\\Event))\n#2 [internal function]: Phalcon\\Events\\Manager->fire('dispatch:before...', Object(Phalcon\\Mvc\\Dispatcher))\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movies')\n#5 {main}"}
+[Thu, 07 May 20 11:19:56 +0200][ERROR] Current Route: errors/code401
+[Thu, 07 May 20 11:20:03 +0200][ERROR] Current Route: index/index
+[Thu, 07 May 20 11:20:06 +0200][ERROR] Current Route: index/index
+[Thu, 07 May 20 11:31:47 +0200][ERROR] Current Route: movie/detail
+[Thu, 07 May 20 11:31:47 +0200][ERROR] {"code":401,"message":"Access Denied"}
+[Thu, 07 May 20 11:31:47 +0200][ERROR] {"message":"Access Denied","trace":"#0 [internal function]: MovieSpace\\Plugins\\SecurityPlugin->beforeExecuteRoute(Object(Phalcon\\Events\\Event), Object(Phalcon\\Mvc\\Dispatcher), NULL)\n#1 [internal function]: Phalcon\\Events\\Manager->fireQueue(Array, Object(Phalcon\\Events\\Event))\n#2 [internal function]: Phalcon\\Events\\Manager->fire('dispatch:before...', Object(Phalcon\\Mvc\\Dispatcher))\n#3 [internal function]: Phalcon\\Dispatcher->dispatch()\n#4 C:\\xampp\\htdocs\\moviespace\\web\\public\\index.php(51): Phalcon\\Mvc\\Application->handle('\/movie\/1')\n#5 {main}"}
+[Thu, 07 May 20 11:31:47 +0200][ERROR] Current Route: errors/code401
+[Thu, 07 May 20 11:31:49 +0200][ERROR] Current Route: index/index
+[Thu, 07 May 20 11:32:05 +0200][ERROR] Current Route: index/index
+[Thu, 07 May 20 11:32:27 +0200][ERROR] Current Route: index/index
+[Thu, 07 May 20 11:32:27 +0200][ERROR] Current Route: movie/index
+[Thu, 07 May 20 11:32:35 +0200][ERROR] Current Route: movie/detail
+[Thu, 07 May 20 11:32:46 +0200][ERROR] Current Route: user/movieFav
+[Thu, 07 May 20 11:32:46 +0200][ERROR] Current Route: movie/detail
+[Thu, 07 May 20 11:32:52 +0200][ERROR] Current Route: movie/index
+[Thu, 07 May 20 11:32:55 +0200][ERROR] Current Route: movie/index
+[Thu, 07 May 20 11:33:03 +0200][ERROR] Current Route: movie/detail
+[Thu, 07 May 20 11:33:07 +0200][ERROR] Current Route: user/movieFav
+[Thu, 07 May 20 11:33:07 +0200][ERROR] Current Route: movie/detail
+[Thu, 07 May 20 11:33:10 +0200][ERROR] Current Route: movie/index
+[Thu, 07 May 20 11:33:18 +0200][ERROR] Current Route: movie/detail
+[Thu, 07 May 20 11:33:24 +0200][ERROR] Current Route: user/movies
+[Thu, 07 May 20 11:33:31 +0200][ERROR] Current Route: movie/detail
+[Thu, 07 May 20 11:33:34 +0200][ERROR] Current Route: user/movieUnFav
+[Thu, 07 May 20 11:33:35 +0200][ERROR] Current Route: movie/detail

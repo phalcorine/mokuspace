@@ -1,0 +1,11 @@
+[Virtual Host Config]
+
+<VirtualHost api.moviespace.code:80>
+    DocumentRoot "C:/xampp/htdocs/moviespace/api/"
+    ServerName api.moviespace.code
+</VirtualHost>
+
+<VirtualHost moviespace.code:80>
+    DocumentRoot "C:/xampp/htdocs/moviespace/web/"
+    ServerName moviespace.code
+</VirtualHost>

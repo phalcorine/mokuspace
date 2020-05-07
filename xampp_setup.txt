@@ -1,0 +1,67 @@
+Requirements:
+=============
+1) XAMPP 7.3.3 64-bit
+2) Phalcon PHP extension -
+        version: 3.4
+        architecture: 64-bit
+
+Instructions:
+=============
+1) Download Xampp 7.3.3 64-bit version from the official website:
+        http://apachefriends.org
+
+2) Download the Phalcon PHP extension from the official website:
+        http://phalcon.io   > Downloads   > DLL Stubs (Windows)
+        - download the version labelled 'phalcon_x64_vc15_php7.3_3.4.5-4250.zip'
+
+3) Install Xampp (usually installs to [C:/xampp/]).
+
+4) Extract the contents of the Phalcon PHP zip archive.
+
+4) Copy the file labelled 'php_phalcon.dll' to the directory:
+        - C:/xampp/php/ext/
+
+5) Go to this directory:
+        - C:/xampp/php/
+        and open the file labelled 'php.ini'.
+
+6) Search for the text:
+        - 'extension'
+        and go to the last line labelled:
+        - ';extension=xsl'.
+
+7) Under this line, type:
+        - 'extension=php_phalcon',
+        then save.
+
+8) Start up your Xampp Control Panel (try Windows Search) and start these services:
+        - Apache
+        - MySQL
+
+9) Once both service labels highlight 'green', then proceed to the next steps.
+
+10) Extract the contents of the surge.rar folder.
+
+11) Copy the folder containing the file labelled: 'run' to the path:
+        - C:/xampp/htdocs/
+
+12) Setup your virtual hosts in your apache/conf/extra/httpd-vhosts.conf file
+    located in your xampp installation directory.
+
+12) Visit this URL on your browser:
+
+        - api.moviespace.com/index.html (api docs)
+        - moviespace.com (web application)
+
+Preparing the Application:
+=========================
+This guide assumes your XAMPP installation is in the C:/xampp directory. Please update,
+if different.
+
+1) To test if all is working fine, launch CMD and change directory to:
+        - C:\xampp\htdocs\moviespace\
+
+2) Type:
+        - C:\xampp\php\php.exe run script init
+
+3) If there are no errors and exceptions, then its working fine.

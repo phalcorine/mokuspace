@@ -1,0 +1,17 @@
+GET http://api.moviespace.code/movies
+Accept: application/json
+
+{
+  "token": "chi.cj.en"
+}
+
+###
+POST http://api.moviespace.code/login
+Content-Type: application/json
+
+{
+  "email": "naruto@konoha.com",
+  "password": "ramen@123"
+}
+
+###

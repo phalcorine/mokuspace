@@ -1,0 +1,21 @@
+{
+  "name": "andromadus-moviespace/web",
+  "description": "A frontend client for the andromadus-moviespace api...",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Andromadus",
+      "email": "andromadusv2@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "7.2 - 7.3",
+    "ext-phalcon": "3.4.*",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "phalcon/ide-stubs": "3.4.3"
+  }
+}
