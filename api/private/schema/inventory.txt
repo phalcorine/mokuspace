@@ -39,6 +39,9 @@ warehouse_items:
 - id
 - warehouseId
 - itemId
+- quantityOnHand
+- createdAt
+- updatedAt
 
 warehouse_item_stock:
 - id
