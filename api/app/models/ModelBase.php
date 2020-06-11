@@ -1,13 +1,11 @@
 <?php
 
 
-namespace MovieSpace\Models;
+namespace BMS\Models;
 
+use BMS\Models\Traits\Timestampable;
 
-use MovieSpace\Models\Traits\Timestampable;
-use Phalcon\Mvc\Model;
-
-class ModelBase extends Model
+class ModelBase
 {
     use Timestampable;
 }

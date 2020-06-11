@@ -11,7 +11,7 @@ use Phalcon\Mvc\Router;
 
 /** @var Router $router */
 $router = $di->get('router');
-$router->setDefaultNamespace('MovieSpace\Controllers');
+$router->setDefaultNamespace('BMS\Controllers');
 
 // Define Custom Routes here...
 /**

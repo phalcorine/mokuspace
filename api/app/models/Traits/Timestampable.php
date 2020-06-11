@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MovieSpace\Models\Traits;
+namespace BMS\Models\Traits;
 
 /**
  * Trait Timestampable
@@ -9,7 +9,7 @@ namespace MovieSpace\Models\Traits;
  * timestamp for both createdAt and
  * updatedAt fields in our models
  *
- * @package MovieSpace\Models\Traits
+ * @package BMS\Models\Traits
  * @property int createdAt
  * @property int updatedAt
  */

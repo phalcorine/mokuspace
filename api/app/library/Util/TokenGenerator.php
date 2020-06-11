@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MovieSpace\Util;
+namespace BMS\Util;
 
 
 use Phalcon\Exception;
@@ -12,7 +12,7 @@ use Phalcon\Security\Random;
  *
  * Literally a token generator :)
  *
- * @package MovieSpace\Util
+ * @package BMS\Util
  */
 class TokenGenerator
 {

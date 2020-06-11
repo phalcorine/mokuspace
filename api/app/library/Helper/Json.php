@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MovieSpace\Helper;
+namespace BMS\Helper;
 
 
 use Phalcon\Http\RequestInterface;
@@ -12,7 +12,7 @@ use Phalcon\Http\RequestInterface;
  * Contains useful JSON manipulation
  * functions...
  *
- * @package MovieSpace\Helper
+ * @package BMS\Helper
  */
 class Json
 {

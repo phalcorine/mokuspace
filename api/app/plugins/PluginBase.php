@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MovieSpace\Plugins;
+namespace BMS\Plugins;
 
 use Phalcon\Logger\Adapter\File as Logger;
 use Phalcon\Mvc\User\Component;
@@ -12,7 +12,7 @@ use Phalcon\Mvc\User\Component;
  * Serves as the base class for
  * all plugins
  *
- * @package MovieSpace\Plugins
+ * @package BMS\Plugins
  * @property Logger logger
  */
 class PluginBase extends Component

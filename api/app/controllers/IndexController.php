@@ -1,19 +1,19 @@
 <?php
 
 
-namespace MovieSpace\Controllers;
+namespace BMS\Controllers;
 
 
-use MovieSpace\Helper\Str;
-use MovieSpace\Models\AppUser;
-use MovieSpace\Plugins\SecurityPlugin;
+use BMS\Helper\Str;
+use BMS\Models\AppUser;
+use BMS\Plugins\SecurityPlugin;
 
 /**
  * Class IndexController
  *
  * API Resource: Index
  *
- * @package MovieSpace\Controllers
+ * @package BMS\Controllers
  */
 class IndexController extends ControllerBase
 {
@@ -47,7 +47,7 @@ class IndexController extends ControllerBase
      * @apiExample Example of use:
      *      curl -i -X POST -d '{
      *          "email": "naruto@konoha.com",
-     *          "password": "ramen@123" }' http://api.moviespace.code/login
+     *          "password": "ramen@123" }' http://api.BMS.code/login
      *
      * @apiSuccess {Object} payload has information about the newly connected user
      *
@@ -107,7 +107,7 @@ class IndexController extends ControllerBase
      *          "lastName": "Uzumaki",
      *          "emailAddress": "naruto@konoha.com",
      *          "password": "ramen@123"
-     *      }' http://api.moviespace.code/register
+     *      }' http://api.BMS.code/register
      *
      * @apiSuccess {Object} payload returns the newly created user
      *

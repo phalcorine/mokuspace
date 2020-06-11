@@ -1,0 +1,46 @@
+item_category:
+- id
+- masterId { item_category -> id }
+- label/name
+- description
+- createdAt | updatedAt
+
+item_type:
+- id
+- label/name
+- description
+- createdAt | updatedAt
+
+item:
+- id
+- categoryId
+- sku
+- name
+- description
+- quantityOnHand
+- itemType { Raw | Finished }
+- reorderLevel
+- sellingPrice
+- minimumSellingPrice
+- saleStatus
+- purchaseStatus
+- createdAt | updatedAt
+
+warehouse:
+- id
+- managerId
+- label/name
+- description
+- address { streetAddress | city | state }
+- openStatus { Open | Closed }
+- contactPhone
+
+warehouse_items:
+- id
+- warehouseId
+- itemId
+
+warehouse_item_stock:
+- id
+- fkId
+- quantity

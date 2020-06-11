@@ -1,11 +1,11 @@
 <?php
 
 
-namespace MovieSpace\Tasks;
+namespace BMS\Tasks;
 
 
-use MovieSpace\ApiClient;
-use MovieSpace\Data\MovieHelper;
+use BMS\ApiClient;
+use BMS\Data\MovieHelper;
 use Phalcon\Config;
 use Phalcon\Db\Column;
 use Phalcon\Db\Index;

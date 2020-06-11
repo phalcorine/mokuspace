@@ -1,0 +1,15 @@
+recipe:
+- id
+- label / name
+- productId (inventory -> item -> id) {Fin/Prod}
+- noOfPortions
+- createdAt
+- updatedAt
+
+recipe_items:
+- id
+- recipeId (Recipe -> id) { Raw Mat. }
+- quantity
+- unitPrice
+- createdAt
+- updatedAt

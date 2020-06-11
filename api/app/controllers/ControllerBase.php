@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MovieSpace\Controllers;
+namespace BMS\Controllers;
 
 
 use Phalcon\Config;
@@ -16,7 +16,7 @@ use stdClass;
  * logic that directly or indirectly
  * affects all its derived classes.
  *
- * @package MovieSpace\Controllers
+ * @package BMS\Controllers
  *
  * @property Config config
  * @property stdClass user

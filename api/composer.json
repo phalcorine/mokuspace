@@ -1,6 +1,6 @@
 {
-  "name": "andromadus-moviespace/api",
-  "description": "A RESTful API web service for viewing and favoring movies...",
+  "name": "mokuspace/api",
+  "description": "A RESTful API web service for inventory management, CRM, ERP, and much more...",
   "minimum-stability": "dev",
   "license": "proprietary",
   "authors": [

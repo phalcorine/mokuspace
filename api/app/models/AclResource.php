@@ -1,8 +1,8 @@
 <?php
 
-namespace MovieSpace\Models;
+namespace BMS\Models;
 
-class VideoMetadata extends ModelBase
+class AclResource extends ModelBase
 {
 
     /**
@@ -13,15 +13,9 @@ class VideoMetadata extends ModelBase
 
     /**
      *
-     * @var integer
+     * @var string
      */
-    public $movieId;
-
-    /**
-     *
-     * @var integer
-     */
-    public $trailerId;
+    public $aclKey;
 
     /**
      *
@@ -33,26 +27,21 @@ class VideoMetadata extends ModelBase
      *
      * @var string
      */
-    public $type;
+    public $description;
 
     /**
      *
-     * @var string
+     * @var integer
      */
-    public $site;
-
-    /**
-     *
-     * @var string
-     */
-    public $videoKey;
+    public $createdAt;
 
     /**
      * Initialize method for model.
      */
     public function initialize()
     {
-        $this->setSource("video_metadata");
+        $this->setSchema("zephir_bms_db");
+        $this->setSource("acl_resource");
     }
 
     /**
@@ -62,14 +51,14 @@ class VideoMetadata extends ModelBase
      */
     public function getSource()
     {
-        return 'video_metadata';
+        return 'acl_resource';
     }
 
     /**
      * Allows to query a set of records that match the specified conditions
      *
      * @param mixed $parameters
-     * @return VideoMetadata[]|VideoMetadata|\Phalcon\Mvc\Model\ResultSetInterface
+     * @return AclResource[]|AclResource|\Phalcon\Mvc\Model\ResultSetInterface
      */
     public static function find($parameters = null)
     {
@@ -80,7 +69,7 @@ class VideoMetadata extends ModelBase
      * Allows to query the first record that match the specified conditions
      *
      * @param mixed $parameters
-     * @return VideoMetadata|\Phalcon\Mvc\Model\ResultInterface
+     * @return AclResource|\Phalcon\Mvc\Model\ResultInterface
      */
     public static function findFirst($parameters = null)
     {

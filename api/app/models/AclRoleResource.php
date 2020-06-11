@@ -2,7 +2,7 @@
 
 namespace BMS\Models;
 
-class AppUser extends ModelBase
+class AclRoleResource extends ModelBase
 {
 
     /**
@@ -15,31 +15,13 @@ class AppUser extends ModelBase
      *
      * @var integer
      */
-    public $userType;
-
-    /**
-     *
-     * @var string
-     */
-    public $token;
+    public $roleId;
 
     /**
      *
      * @var integer
      */
-    public $isSuspended;
-
-    /**
-     *
-     * @var integer
-     */
-    public $createdAt;
-
-    /**
-     *
-     * @var integer
-     */
-    public $updatedAt;
+    public $resourceId;
 
     /**
      * Initialize method for model.
@@ -47,7 +29,7 @@ class AppUser extends ModelBase
     public function initialize()
     {
         $this->setSchema("zephir_bms_db");
-        $this->setSource("app_user");
+        $this->setSource("acl_role_resource");
     }
 
     /**
@@ -57,14 +39,14 @@ class AppUser extends ModelBase
      */
     public function getSource()
     {
-        return 'app_user';
+        return 'acl_role_resource';
     }
 
     /**
      * Allows to query a set of records that match the specified conditions
      *
      * @param mixed $parameters
-     * @return AppUser[]|AppUser|\Phalcon\Mvc\Model\ResultSetInterface
+     * @return AclRoleResource[]|AclRoleResource|\Phalcon\Mvc\Model\ResultSetInterface
      */
     public static function find($parameters = null)
     {
@@ -75,7 +57,7 @@ class AppUser extends ModelBase
      * Allows to query the first record that match the specified conditions
      *
      * @param mixed $parameters
-     * @return AppUser|\Phalcon\Mvc\Model\ResultInterface
+     * @return AclRoleResource|\Phalcon\Mvc\Model\ResultInterface
      */
     public static function findFirst($parameters = null)
     {

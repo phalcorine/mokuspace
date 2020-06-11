@@ -63,7 +63,7 @@ $di->set('modelsMetadata', function () {
  */
 $di->set('dispatcher', function () use ($di) {
     $dispatcher = new Dispatcher();
-    $dispatcher->setDefaultNamespace('MovieSpace\Tasks');
+    $dispatcher->setDefaultNamespace('BMS\Tasks');
 
     return $dispatcher;
 });

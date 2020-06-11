@@ -2,7 +2,7 @@
 
 namespace BMS\Models;
 
-class AppUser extends ModelBase
+class BlobData extends ModelBase
 {
 
     /**
@@ -13,21 +13,15 @@ class AppUser extends ModelBase
 
     /**
      *
-     * @var integer
+     * @var string
      */
-    public $userType;
+    public $blob_key;
 
     /**
      *
      * @var string
      */
-    public $token;
-
-    /**
-     *
-     * @var integer
-     */
-    public $isSuspended;
+    public $data;
 
     /**
      *
@@ -47,7 +41,7 @@ class AppUser extends ModelBase
     public function initialize()
     {
         $this->setSchema("zephir_bms_db");
-        $this->setSource("app_user");
+        $this->setSource("blob_data");
     }
 
     /**
@@ -57,14 +51,14 @@ class AppUser extends ModelBase
      */
     public function getSource()
     {
-        return 'app_user';
+        return 'blob_data';
     }
 
     /**
      * Allows to query a set of records that match the specified conditions
      *
      * @param mixed $parameters
-     * @return AppUser[]|AppUser|\Phalcon\Mvc\Model\ResultSetInterface
+     * @return BlobData[]|BlobData|\Phalcon\Mvc\Model\ResultSetInterface
      */
     public static function find($parameters = null)
     {
@@ -75,7 +69,7 @@ class AppUser extends ModelBase
      * Allows to query the first record that match the specified conditions
      *
      * @param mixed $parameters
-     * @return AppUser|\Phalcon\Mvc\Model\ResultInterface
+     * @return BlobData|\Phalcon\Mvc\Model\ResultInterface
      */
     public static function findFirst($parameters = null)
     {

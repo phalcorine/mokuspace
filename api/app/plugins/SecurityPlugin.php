@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MovieSpace\Plugins;
+namespace BMS\Plugins;
 
 
 use Lcobucci\JWT\Builder;
@@ -24,7 +24,7 @@ use Phalcon\Mvc\Dispatcher;
  * included here useful for authentication
  * via JWT.
  *
- * @package MovieSpace\Plugins
+ * @package BMS\Plugins
  */
 class SecurityPlugin extends PluginBase
 {

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace MovieSpace;
+namespace BMS;
 
 use GuzzleHttp\Exception\ServerException;
-use MovieSpace\Plugins\SecurityPlugin;
+use BMS\Plugins\SecurityPlugin;
 use Phalcon\Session\Adapter\Files as Session;
 
 use GuzzleHttp\Client as GuzzleClient;
@@ -15,7 +15,7 @@ use GuzzleHttp\Client as GuzzleClient;
  * An API Client simplified for the
  * console application.
  *
- * @package MovieSpace
+ * @package BMS
  */
 class ApiClient
 {
@@ -38,7 +38,7 @@ class ApiClient
             'base_uri'  => $apiUrl,
             'timeout'   => 2,
             'headers'   => [
-                //'User-Agent'    => 'MovieSpaceApi/1.0',
+                //'User-Agent'    => 'BMSApi/1.0',
                 'Accept'        => 'application/json'
             ]
         ]);

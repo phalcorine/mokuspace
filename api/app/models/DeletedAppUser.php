@@ -1,8 +1,8 @@
 <?php
 
-namespace MovieSpace\Models;
+namespace BMS\Models;
 
-class MovieGenre extends ModelBase
+class DeletedAppUser extends ModelBase
 {
 
     /**
@@ -13,23 +13,41 @@ class MovieGenre extends ModelBase
 
     /**
      *
-     * @var integer
+     * @var string
      */
-    public $genreId;
+    public $token;
 
     /**
      *
      * @var integer
      */
-    public $movieId;
+    public $isSuspended;
+
+    /**
+     *
+     * @var integer
+     */
+    public $createdAt;
+
+    /**
+     *
+     * @var integer
+     */
+    public $updatedAt;
+
+    /**
+     *
+     * @var integer
+     */
+    public $deletedAt;
 
     /**
      * Initialize method for model.
      */
     public function initialize()
     {
-        //$this->setSchema("movie_space");
-        $this->setSource("movie_genre");
+        $this->setSchema("zephir_bms_db");
+        $this->setSource("deleted_app_user");
     }
 
     /**
@@ -39,14 +57,14 @@ class MovieGenre extends ModelBase
      */
     public function getSource()
     {
-        return 'movie_genre';
+        return 'deleted_app_user';
     }
 
     /**
      * Allows to query a set of records that match the specified conditions
      *
      * @param mixed $parameters
-     * @return MovieGenre[]|MovieGenre|\Phalcon\Mvc\Model\ResultSetInterface
+     * @return DeletedAppUser[]|DeletedAppUser|\Phalcon\Mvc\Model\ResultSetInterface
      */
     public static function find($parameters = null)
     {
@@ -57,7 +75,7 @@ class MovieGenre extends ModelBase
      * Allows to query the first record that match the specified conditions
      *
      * @param mixed $parameters
-     * @return MovieGenre|\Phalcon\Mvc\Model\ResultInterface
+     * @return DeletedAppUser|\Phalcon\Mvc\Model\ResultInterface
      */
     public static function findFirst($parameters = null)
     {

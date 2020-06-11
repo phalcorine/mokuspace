@@ -13,11 +13,11 @@ defined('APP_PATH') || define('APP_PATH', BASE_PATH . '/app');
 
 return new Config([
     'database'    => [
-        'adapter'  => 'Sqlite',
+        'adapter'  => 'Mysql',
         'host'     => 'localhost',
-        'username' => 'movie_db_user',
-        'password' => 'movie_db_pass@123',
-        'dbname'   => 'movie_space',
+        'username' => 'root',
+        'password' => '',
+        'dbname'   => 'zephir_bms_db',
         'charset'  => 'utf8',
         'port'     => '3306'
     ],
@@ -33,7 +33,7 @@ return new Config([
         'cacheDir'       => BASE_PATH . '/cache/',
 
         // This allows the baseUri to be understand project paths that are not in the root directory
-        // of the webpspace.  This will break if the public/index.php entry point is moved or
+        // of the web space.  This will break if the public/index.php entry point is moved or
         // possibly if the web server rewrite rules are changed. This can also be set to a static path.
         'baseUri'        => preg_replace('/public([\/\\\\])index.php$/', '', $_SERVER["PHP_SELF"]),
     ],

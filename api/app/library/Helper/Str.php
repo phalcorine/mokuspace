@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MovieSpace\Helper;
+namespace BMS\Helper;
 
 /**
  * Class Str
@@ -9,7 +9,7 @@ namespace MovieSpace\Helper;
  * Contains useful string manipulation
  * functions...
  *
- * @package MovieSpace\Helper
+ * @package BMS\Helper
  */
 class Str
 {

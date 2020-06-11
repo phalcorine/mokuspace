@@ -1,13 +1,13 @@
 <?php
 
 
-namespace MovieSpace\Tasks;
+namespace BMS\Tasks;
 
 
 class MainTask extends TaskBase
 {
     public function mainAction()
     {
-        echo 'Welcome to the MovieSpace Console Application... :)';
+        echo 'Welcome to the BMS Console Application... :)';
     }
 }

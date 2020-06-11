@@ -11,11 +11,11 @@ use Phalcon\Loader as Loader;
 $loader = new Loader();
 
 $loader->registerNamespaces([
-    'MovieSpace\Controllers'    => $config->application->controllersDir,
-    'MovieSpace\Models'         => $config->application->modelsDir,
-    'MovieSpace\Plugins'        => $config->application->pluginsDir,
-    'MovieSpace\Tasks'          => $config->application->tasksDir,
-    'MovieSpace'                => $config->application->libraryDir
+    'BMS\Controllers'    => $config->application->controllersDir,
+    'BMS\Models'         => $config->application->modelsDir,
+    'BMS\Plugins'        => $config->application->pluginsDir,
+    'BMS\Tasks'          => $config->application->tasksDir,
+    'BMS'                => $config->application->libraryDir
 ]);
 
 $loader->register();

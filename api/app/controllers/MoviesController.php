@@ -1,17 +1,17 @@
 <?php
 
 
-namespace MovieSpace\Controllers;
+namespace BMS\Controllers;
 
-use MovieSpace\Models\AppUser;
-use MovieSpace\Models\Movie;
-use MovieSpace\Models\UserMovieFavorite;
-use MovieSpace\Plugins\SecurityPlugin;
+use BMS\Models\AppUser;
+use BMS\Models\Movie;
+use BMS\Models\UserMovieFavorite;
+use BMS\Plugins\SecurityPlugin;
 
 /**
  * Class MoviesController
  * API Resource: Movie
- * @package MovieSpace\Controllers
+ * @package BMS\Controllers
  */
 class MoviesController extends ControllerBase
 {
@@ -23,7 +23,7 @@ class MoviesController extends ControllerBase
      * @apiName allMovies
      * @apiGroup Movies
      * @apiExample Example of use:
-     *      curl -i -X GET http://api.moviespace.code/movies
+     *      curl -i -X GET http://api.BMS.code/movies
      *
      * @apiSuccess {Object} payload A json array of movies
      *
@@ -50,7 +50,7 @@ class MoviesController extends ControllerBase
      * @apiName infoMovie
      * @apiGroup Movies
      * @apiExample Example of use:
-     *      curl -i -X GET -d '{"token": "..."}' http://api.moviespace.code/movie/3
+     *      curl -i -X GET -d '{"token": "..."}' http://api.BMS.code/movie/3
      *
      * @apiSuccess {Object} payload Fetches information about the movie
      *

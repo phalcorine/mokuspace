@@ -7,7 +7,7 @@
  * application.
  */
 
-use MovieSpace\ConsoleApplication;
+use BMS\ConsoleApplication;
 use Phalcon\Cli\Console as ConsoleApp;
 use Phalcon\Di\FactoryDefault\Cli as CliDi;
 

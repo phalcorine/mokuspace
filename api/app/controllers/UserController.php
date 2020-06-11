@@ -1,18 +1,18 @@
 <?php
 
 
-namespace MovieSpace\Controllers;
+namespace BMS\Controllers;
 
 
-use MovieSpace\Models\AppUser;
-use MovieSpace\Models\Movie;
-use MovieSpace\Models\UserMovieFavorite;
-use MovieSpace\Plugins\SecurityPlugin;
+use BMS\Models\AppUser;
+use BMS\Models\Movie;
+use BMS\Models\UserMovieFavorite;
+use BMS\Plugins\SecurityPlugin;
 
 /**
  * Class UserController
  * API Resource: User
- * @package MovieSpace\Controllers
+ * @package BMS\Controllers
  */
 class UserController extends ControllerBase
 {
@@ -28,7 +28,7 @@ class UserController extends ControllerBase
      * @apiName userMoviesAll
      * @apiGroup User
      * @apiExample Example of use:
-     *      curl -i -X GET -d '{"token": "..."}' http://api.moviespace.code/user/movies
+     *      curl -i -X GET -d '{"token": "..."}' http://api.BMS.code/user/movies
      *
      * @apiSuccess {Object} payload Returns list of favorite movies
      *
@@ -57,7 +57,7 @@ class UserController extends ControllerBase
      * @apiName userMovieFav
      * @apiGroup User
      * @apiExample Example of use:
-     *      curl -i -X GET -d '{"token": "..."}' http://api.moviespace.code/user/movies/fav/3
+     *      curl -i -X GET -d '{"token": "..."}' http://api.BMS.code/user/movies/fav/3
      *
      * @apiSuccess {Object} payload Favorite status
      *
@@ -122,7 +122,7 @@ class UserController extends ControllerBase
      * @apiName userMovieUnfav
      * @apiGroup Movies
      * @apiExample Example of use:
-     *      curl -i -X GET -d '{"token": "..."}' http://api.moviespace.code/user/movies/unfav/3
+     *      curl -i -X GET -d '{"token": "..."}' http://api.BMS.code/user/movies/unfav/3
      *
      * @apiSuccess {Object} payload Favorite Status
      *

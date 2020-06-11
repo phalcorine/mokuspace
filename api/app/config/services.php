@@ -6,10 +6,10 @@
  * application should be registered here.
  */
 
-use MovieSpace\Helper\Json;
-use MovieSpace\Models\AppUser;
-use MovieSpace\Plugins\ResponsePlugin;
-use MovieSpace\Plugins\SecurityPlugin;
+use BMS\Helper\Json;
+use BMS\Models\AppUser;
+use BMS\Plugins\ResponsePlugin;
+use BMS\Plugins\SecurityPlugin;
 use Phalcon\Config;
 use Phalcon\Events\Manager as EventsManager;
 use Phalcon\Http\Request;
@@ -134,7 +134,7 @@ $di->set('dispatcher', function () use ($di) {
 
     $dispatcher = new Dispatcher();
     $dispatcher->setEventsManager($eventsManager);
-    $dispatcher->setDefaultNamespace('MovieSpace\Controllers');
+    $dispatcher->setDefaultNamespace('BMS\Controllers');
 
     return $dispatcher;
 });

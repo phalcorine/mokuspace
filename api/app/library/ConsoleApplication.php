@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MovieSpace;
+namespace BMS;
 
 use Phalcon\Cli\Console;
 use Phalcon\Logger\Adapter\File as Logger;
@@ -12,7 +12,7 @@ use Phalcon\Logger\Adapter\File as Logger;
  * Our own implementation of the
  * Phalcon Cli Application
  *
- * @package MovieSpace
+ * @package BMS
  *
  * @property Logger logger
  */

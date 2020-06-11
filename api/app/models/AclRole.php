@@ -1,8 +1,8 @@
 <?php
 
-namespace MovieSpace\Models;
+namespace BMS\Models;
 
-class UserMovieFavorite extends ModelBase
+class AclRole extends ModelBase
 {
 
     /**
@@ -13,23 +13,41 @@ class UserMovieFavorite extends ModelBase
 
     /**
      *
-     * @var integer
+     * @var string
      */
-    public $userId;
+    public $token;
+
+    /**
+     *
+     * @var string
+     */
+    public $name;
+
+    /**
+     *
+     * @var string
+     */
+    public $description;
 
     /**
      *
      * @var integer
      */
-    public $movieId;
+    public $createdAt;
+
+    /**
+     *
+     * @var integer
+     */
+    public $updatedAt;
 
     /**
      * Initialize method for model.
      */
     public function initialize()
     {
-        //$this->setSchema("movie_space");
-        $this->setSource("user_movie_favorite");
+        $this->setSchema("zephir_bms_db");
+        $this->setSource("acl_role");
     }
 
     /**
@@ -39,14 +57,14 @@ class UserMovieFavorite extends ModelBase
      */
     public function getSource()
     {
-        return 'user_movie_favorite';
+        return 'acl_role';
     }
 
     /**
      * Allows to query a set of records that match the specified conditions
      *
      * @param mixed $parameters
-     * @return UserMovieFavorite[]|UserMovieFavorite|\Phalcon\Mvc\Model\ResultSetInterface
+     * @return AclRole[]|AclRole|\Phalcon\Mvc\Model\ResultSetInterface
      */
     public static function find($parameters = null)
     {
@@ -57,7 +75,7 @@ class UserMovieFavorite extends ModelBase
      * Allows to query the first record that match the specified conditions
      *
      * @param mixed $parameters
-     * @return UserMovieFavorite|\Phalcon\Mvc\Model\ResultInterface
+     * @return AclRole|\Phalcon\Mvc\Model\ResultInterface
      */
     public static function findFirst($parameters = null)
     {

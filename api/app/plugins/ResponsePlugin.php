@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MovieSpace\Plugins;
+namespace BMS\Plugins;
 
 use Phalcon\Events\Event;
 use Phalcon\Http\ResponseInterface;
@@ -15,7 +15,7 @@ use Phalcon\Mvc\Dispatcher;
  * which is fired immediately a response is
  * available to be sent to the client.
  *
- * @package MovieSpace\Plugins
+ * @package BMS\Plugins
  */
 class ResponsePlugin extends PluginBase
 {
@@ -34,6 +34,7 @@ class ResponsePlugin extends PluginBase
             'status'    => 'success',
             'payload'   => $dispatcher->getReturnedValue()
         ]);
+
 
         return $this->response->send();
     }

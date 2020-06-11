@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MovieSpace\Tasks;
+namespace BMS\Tasks;
 
 
 use Phalcon\Cli\Task;
@@ -14,7 +14,7 @@ use Phalcon\Cli\Task;
  * logic that may directly or indirectly
  * affect all derived classes.
  *
- * @package MovieSpace\Tasks
+ * @package BMS\Tasks
  */
 class TaskBase extends Task
 {
