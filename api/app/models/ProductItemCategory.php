@@ -46,7 +46,7 @@ class ProductItemCategory extends ModelBase
      */
     public function initialize()
     {
-        $this->setSchema("zephir_bms_db");
+        //$this->setSchema("zephir_bms_db");
         $this->setSource("product_item_category");
     }
 

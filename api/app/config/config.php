@@ -28,6 +28,7 @@ return new Config([
         'migrationsDir'  => APP_PATH . '/migrations/',
         'viewsDir'       => APP_PATH . '/views/',
         'pluginsDir'     => APP_PATH . '/plugins/',
+        'routesDir'      => APP_PATH . '/routes/',
         'libraryDir'     => APP_PATH . '/library/',
         'tasksDir'       => APP_PATH . '/tasks/',
         'cacheDir'       => BASE_PATH . '/cache/',

@@ -46,7 +46,7 @@ class DeletedAppUser extends ModelBase
      */
     public function initialize()
     {
-        $this->setSchema("zephir_bms_db");
+        //$this->setSchema("zephir_bms_db");
         $this->setSource("deleted_app_user");
     }
 

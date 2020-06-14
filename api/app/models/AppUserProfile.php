@@ -64,7 +64,7 @@ class AppUserProfile extends ModelBase
      */
     public function initialize()
     {
-        $this->setSchema("zephir_bms_db");
+        //$this->setSchema("zephir_bms_db");
         $this->setSource("app_user_profile");
     }
 

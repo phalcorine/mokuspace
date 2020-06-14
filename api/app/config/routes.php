@@ -7,6 +7,7 @@
  * component.
  */
 
+use BMS\Routes\InventoryRoutes;
 use Phalcon\Mvc\Router;
 
 /** @var Router $router */
@@ -39,8 +40,8 @@ $router->addPost('/register', [
     'action'        => 'register'
 ])->setName('register_index');
 
-// Movie Routes
-$router->addGet('/movies', [
+// Product Type Routes
+$router->addGet('/', [
     'controller'    => 'movies',
     'action'        => 'allMovies'
 ])->setName('movies_all');
@@ -65,5 +66,9 @@ $router->addGet('/user/movies/unfav/{id:[0-9]+}', [
     'controller'    => 'user',
     'action'        => 'movieUnFav'
 ])->setName('user_movieUnFav');
+
+// ====== Router Groups =========
+// Inventory Routes
+$router->mount(new InventoryRoutes());
 
 $router->handle($_GET['_url'] ?? '/');

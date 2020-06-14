@@ -21,11 +21,6 @@ try {
     include APP_PATH . '/config/services.php';
 
     /**
-     * Handle routes
-     */
-    include APP_PATH . '/config/routes.php';
-
-    /**
      * Load our shared configuration object...
      */
     $config = $di->get('config');
@@ -39,6 +34,11 @@ try {
      * Composer Autoloader
      */
     include BASE_PATH . '/vendor/autoload.php';
+
+    /**
+     * Handle routes
+     */
+    include APP_PATH . '/config/routes.php';
 
     /**
      * Create the web application and

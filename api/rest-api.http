@@ -1,17 +1,26 @@
-GET http://api.moviespace.code/movies
+GET http://api.mokuspace.code/inventory/productTypes
+Accept: application/json
+
+###
+POST http://api.mokuspace.code/inventory/productTypes
 Accept: application/json
 
 {
-  "token": "chi.cj.en"
+  "label": "Raw Materials",
+  "description": "Raw material items for preparing finished products..."
 }
 
 ###
-POST http://api.moviespace.code/login
-Content-Type: application/json
+PUT http://api.mokuspace.code/inventory/productTypes/1
+Accept: application/json
 
 {
-  "email": "naruto@konoha.com",
-  "password": "ramen@123"
+  "label": "Raw Materials (updated)",
+  "description": "Raw material items for preparing finished products..."
 }
+
+###
+DELETE http://api.mokuspace.code/inventory/productTypes/1
+Accept: application/json
 
 ###
